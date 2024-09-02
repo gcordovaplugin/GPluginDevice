@@ -1,2 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cn.yingzhichu.cordova.gdevice" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>GDevice</name><js-module name="GDevice" src="www/GDevice.js"><clobbers target="cordova.plugins.GDevice" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="GDevice"><param name="android-package" value="cn.yingzhichu.cordova.gdevice.GDevice" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/GDevice.java" target-dir="src/cn/yingzhichu/cordova/gdevice/GDevice" /></platform></plugin>
+<plugin id="cn.yingzhichu.cordova.gdevice" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>GDevice</name>
+    <js-module name="GDevice" src="www/GDevice.js">
+        <clobbers target="cordova.plugins.GDevice" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="GDevice">
+                <param name="android-package" value="cn.yingzhichu.cordova.gdevice.GDevice" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/GDevice.java" target-dir="src/cn/yingzhichu/cordova/gdevice/GDevice" />
+    </platform>
+</plugin>
