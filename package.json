@@ -1,0 +1,25 @@
+{
+  "name": "cn.yingzhichu.cordova.gdevice",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cn.yingzhichu.cordova.gdevice",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcordovaplugin/GPluginDevice.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcordovaplugin/GPluginDevice/issues"
+  },
+  "homepage": "https://github.com/gcordovaplugin/GPluginDevice#readme"
+}
